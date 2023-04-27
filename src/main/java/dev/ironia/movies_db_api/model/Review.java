@@ -1,4 +1,4 @@
-package dev.ironia.movies_db_api;
+package dev.ironia.movies_db_api.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

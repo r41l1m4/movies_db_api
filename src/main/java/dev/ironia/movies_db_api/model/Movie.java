@@ -1,4 +1,4 @@
-package dev.ironia.movies_db_api;
+package dev.ironia.movies_db_api.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -10,7 +10,7 @@ import org.springframework.data.mongodb.core.mapping.DocumentReference;
 
 import java.util.List;
 
-@Document(collection = "movies")
+@Document(collection = "movies-db")
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
